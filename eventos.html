@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+    <style>
+        #bloquear-menuContext {
+            margin: 50px 0 0;
+            width: 500px;
+            height: 250px;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <button id="obj">botón</button>
+    <!--
+  El onclick se aplica al asignar eventos directamente en el html
+<button id="obj" onclick="evento"></button>
+-->
+
+    <div id="bloquear-menuContext" oncontextmenu="return true">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis quibusdam, tempore, doloremque explicabo sint repudiandae cum molestiae nemo quam fuga ipsa nostrum, sit officia! Odio ea unde nostrum aspernatur nesciunt.
+    </div>
+
+    <form action="" onsubmit="return validar()">
+        <!--aqui se puede hacer una validación
+        <!--onsubmit="return false" al hacer esta indicacion no se enviara-->
+        <input type="text" id="txtNombre" name="txtNombre" />
+        <!--al agregar el atributo name  name="txtNombre"  al submit se mandan los parametros a la liga en la barra de direcciones-->
+        <input type="text" id="txtApellido" name="txtApellido" />
+        <button type="submit">boton formulario</button>
+    </form>
+
+    <script src="eventos.js"></script>
+</body>
+
+</html>

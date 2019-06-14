@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="1.-bases.js"></script>
+    <script src="1.-bases2.js"></script>
+
+
+    <!--si tenemos dos archivos 
+        
+        <script src="app2.js"></script> en este tengo console.log(nombre);
+        <script src="app.js"></script> y en este  var nombre = juan;
+        nos va marcar un defined, por que cuando arranca con  app2.js, crea el objeto global window
+        en donde nombre no existe, y ya lo posterior a ello, ya no lo toma en cuenta
+        parece ser que al leer un js crea un contexto con el objeto global window
+        por lo que es muy importante el orden de los archivos lo que se solicita o define  primero
+        
+    -->
+
+</head>
+
+<body>
+
+    <button onclick="presionoClick()">Boton</button>
+</body>
+
+</html>

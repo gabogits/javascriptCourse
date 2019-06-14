@@ -1,0 +1,21 @@
+{
+  "comment": "antes para compartir info se ocupaba XML ahora, pero el peso era mayor. json es mas compacto y ademas se puede minificar",
+  "catalog": [
+    {
+      "author": "Gambardella, Matthew",
+      "title": "XML Developer's Guide",
+      "genre": "Computer",
+      "price": 44.95,
+      "publish_date": "2000-10-01",
+      "description": "An in-depth look at creat",
+    },
+    {
+      "author": "Ralls, Kim",
+      "title": "Midnight Rain",
+      "genre": "Fantasy",
+      "price": 5.95,
+      "publish_date": "2000-12-16",
+      "description": "A former architect",
+    }
+  ]
+}
